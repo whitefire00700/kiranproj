@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/r"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mapbg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/btnShownearby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnShowdistance"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/but2" />
+
+    <ImageView
+        android:id="@+id/btnShowroute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/dest"
+        android:layout_alignTop="@+id/btnShownearby"
+        android:src="@drawable/but3" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/dest"
+        android:layout_below="@+id/dest"
+        android:src="@drawable/but3" />
+
+    <EditText
+        android:id="@+id/dest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnShownearby"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/btnShowdistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dest"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="92dp"
+        android:src="@drawable/but1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnShowdistance"
+        android:layout_below="@+id/btnsearch2"
+        android:text="Shake / Tilt Your Phone To Send SMS"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/btnsmsact"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/btnperson"
+        android:layout_toLeftOf="@+id/btnperson"
+        android:src="@drawable/shake" />
+
+    <ImageView
+        android:id="@+id/btnsearch2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/btnShowroute"
+        android:src="@drawable/search2" />
+
+    <ImageView
+        android:id="@+id/btnperson"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/person" />
+
+</RelativeLayout>

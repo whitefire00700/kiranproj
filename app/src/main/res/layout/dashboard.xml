@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/splash_id" >
+  
+    
+    <ImageView android:layout_height="fill_parent"
+         android:layout_width="fill_parent" 
+        android:src="@drawable/welcome" android:scaleType="centerCrop" 
+        android:id="@+id/imageView1"/>
+
+</RelativeLayout>

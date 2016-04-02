@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Route Saver</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="chk_bank">Bank</string>
+    <string name="chk_cafe">Cafe</string>
+    <string name="chk_restaurant">Restaurant</string>
+    <string name="chk_airport">Airport</string>
+    <string name="chk_amusement_park">Amusement_park</string>
+    <string name="chk_mosque">Mosque</string>
+    <string name="chk_theatre">Movie_theater</string>
+    <string name="chk_atm">ATM</string>
+    <string name="chk_Rstation">Train_station</string>
+    <string name="chk_Bar">Bar</string>
+    <string name="chk_Shopping_mall">Shopping_mall</string>
+    <string name="btn_display">Display</string>
+    <string name="title_activity_track">Track</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_locate_cell">LocateCell</string>
+    <string name="title_activity_geo_location">GeoLocation</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_view_register">ViewRegister</string>
+    <string name="title_activity_smsto">SMSTo</string>
+    <string name="title_activity_send_sms">SendSMS</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device does not support speech input</string>
+
+    <string-array name="template">
+        <item>Thank you.</item>
+        <item>Busy right now. Revert you shortly</item>
+        <item>plz call me</item>
+        <item>Wait im driving right now</item>
+    </string-array>
+    <string-array name="gender">
+        <item>- Select -</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="contacttype">
+        <item>- Select -</item>
+        <item>Friends</item>
+        <item>Relatives</item>
+        <item>Neighbour</item>
+    </string-array>
+
+    <string name="title_activity_review">Review</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
